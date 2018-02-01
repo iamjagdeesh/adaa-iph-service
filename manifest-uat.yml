@@ -1,0 +1,9 @@
+---
+applications:
+- name: iph-service
+  host: adaa-iph-service-uat
+  memory: 1024M
+  instances: 1
+  path: target/iph-service-0.0.1-SNAPSHOT.jar
+  services:
+  - psql-adaa-uat
